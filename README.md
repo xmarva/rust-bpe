@@ -9,7 +9,7 @@ Byte Pair Encoding is a data compression technique that iteratively replaces the
 ## Project Structure
 
 ```
-simple_bpe/
+rust-bpe/
 ├── Cargo.toml
 ├── src/
 │   ├── main.rs       - Command-line interface
@@ -66,9 +66,7 @@ Parameters:
 - `-m, --model`: Path to the trained BPE model
 - `-o, --output`: Path where tokenized output will be saved
 
-## Using as a Library
-
-You can also use Simple BPE as a library in your Rust projects:
+## As a Library
 
 ```rust
 use simple_bpe::bpe::BPE;
